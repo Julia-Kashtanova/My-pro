@@ -1,0 +1,7 @@
+.examples .title {
+    color: var(--title-text-color);
+}
+
+.examples .descr {
+    color: var(--primary-text-color);
+}

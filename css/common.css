@@ -1,0 +1,65 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+    --opacity-white-color: rgba(255, 255, 255, 0.6);
+    --secondary-background-color: #f5f4fa;
+    --white-color: #ffffff;
+}
+
+body {
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: var(--title-text-color);
+}
+
+.logo-piece {
+    color: var(--accent-color);
+}
+
+/* site-nav */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* connect */
+.connect .link {
+    color: var(--primary-text-color);
+}
+
+.connect .link:hover,
+.connect .link:focus,
+.site-nav .link:focus,
+.site-nav .link:hover {
+    color: var(--accent-color);
+}
+
+.button {
+}
+
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+.button.secondary {
+    background-color: var(--secondary-background-color);
+    color: var(--title-text-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
